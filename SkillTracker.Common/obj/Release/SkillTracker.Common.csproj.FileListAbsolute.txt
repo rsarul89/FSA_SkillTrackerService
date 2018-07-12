@@ -1,0 +1,6 @@
+C:\Final_SBA\SkillTracker\SkillTracker.Common\bin\Release\SkillTracker.Common.dll.config
+C:\Final_SBA\SkillTracker\SkillTracker.Common\bin\Release\SkillTracker.Common.dll
+C:\Final_SBA\SkillTracker\SkillTracker.Common\bin\Release\SkillTracker.Common.pdb
+C:\Final_SBA\SkillTracker\SkillTracker.Common\obj\Release\SkillTracker.Common.csprojResolveAssemblyReference.cache
+C:\Final_SBA\SkillTracker\SkillTracker.Common\obj\Release\SkillTracker.Common.dll
+C:\Final_SBA\SkillTracker\SkillTracker.Common\obj\Release\SkillTracker.Common.pdb
