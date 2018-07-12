@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Load.Tests\SkillTracker.WebApi.Load.Tests.csproj" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-07-12" time="13:31:21">
+  <environment nunit-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Program Files (x86)\Jenkins\workspace\SkillTrackerService" machine-name="DOTNET" user="SYSTEM" user-domain="WORKGROUP" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Load.Tests\SkillTracker.WebApi.Load.Tests.csproj" executed="True" result="Success" success="True" time="0.000" asserts="3">
+    <results>
+      <test-suite type="Assembly" name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Load.Tests\bin\Debug\SkillTracker.WebApi.Load.Tests.dll" executed="True" result="Success" success="True" time="90.533" asserts="3">
+        <properties>
+          <property name="_PID" value="7488" />
+          <property name="_APPDOMAIN" value="test-domain-SkillTracker.WebApi.Load.Tests.csproj" />
+        </properties>
+        <results>
+          <test-suite type="TestSuite" name="SkillTracker" executed="True" result="Success" success="True" time="90.485" asserts="3">
+            <results>
+              <test-suite type="TestSuite" name="WebApi" executed="True" result="Success" success="True" time="90.481" asserts="3">
+                <results>
+                  <test-suite type="TestSuite" name="Load" executed="True" result="Success" success="True" time="90.477" asserts="3">
+                    <results>
+                      <test-suite type="TestSuite" name="Tests" executed="True" result="Success" success="True" time="90.473" asserts="3">
+                        <results>
+                          <test-suite type="TestFixture" name="LoadAssociatesTests" executed="True" result="Success" success="True" time="66.163" asserts="1">
+                            <results>
+                              <test-suite type="ParameterizedTest" name="PerformanceTests" executed="True" result="Success" success="True" time="66.152" asserts="1">
+                                <results>
+                                  <test-case name="SkillTracker.WebApi.Load.Tests.LoadAssociatesTests.GetAssociateBenchmark" executed="True" result="Success" success="True" time="66.113" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="LoadSkillsTest" executed="True" result="Success" success="True" time="22.913" asserts="1">
+                            <results>
+                              <test-suite type="ParameterizedTest" name="PerformanceTests" executed="True" result="Success" success="True" time="22.909" asserts="1">
+                                <results>
+                                  <test-case name="SkillTracker.WebApi.Load.Tests.LoadSkillsTest.GetSkillBenchmark" executed="True" result="Success" success="True" time="22.906" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="LoadUserTests" executed="True" result="Success" success="True" time="1.380" asserts="1">
+                            <results>
+                              <test-suite type="ParameterizedTest" name="PerformanceTests" executed="True" result="Success" success="True" time="1.375" asserts="1">
+                                <results>
+                                  <test-case name="SkillTracker.WebApi.Load.Tests.LoadUserTests.GetUserBenchmark" executed="True" result="Success" success="True" time="1.372" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Tests\SkillTracker.WebApi.Tests.csproj" total="17" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-07-12" time="13:30:20">
+  <environment nunit-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Program Files (x86)\Jenkins\workspace\SkillTrackerService" machine-name="DOTNET" user="SYSTEM" user-domain="WORKGROUP" />
+  <culture-info current-culture="en-IN" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Tests\SkillTracker.WebApi.Tests.csproj" executed="True" result="Success" success="True" time="0.000" asserts="42">
+    <results>
+      <test-suite type="Assembly" name="C:\Final_SBA\SkillTracker\SkillTracker.WebApi.Tests\bin\Debug\SkillTracker.WebApi.Tests.dll" executed="True" result="Success" success="True" time="19.453" asserts="42">
+        <properties>
+          <property name="_PID" value="14120" />
+          <property name="_APPDOMAIN" value="test-domain-SkillTracker.WebApi.Tests.csproj" />
+        </properties>
+        <results>
+          <test-suite type="TestSuite" name="SkillTracker" executed="True" result="Success" success="True" time="19.296" asserts="42">
+            <results>
+              <test-suite type="TestSuite" name="WebApi" executed="True" result="Success" success="True" time="19.292" asserts="42">
+                <results>
+                  <test-suite type="TestSuite" name="Tests" executed="True" result="Success" success="True" time="19.288" asserts="42">
+                    <results>
+                      <test-suite type="TestSuite" name="Controllers" executed="True" result="Success" success="True" time="19.284" asserts="42">
+                        <results>
+                          <test-suite type="TestFixture" name="AssociateControllerTests" executed="True" result="Success" success="True" time="18.546" asserts="15">
+                            <results>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.GetAllAssociatesTest" executed="True" result="Success" success="True" time="13.709" asserts="3">
+                                <properties>
+                                  <property name="Order" value="1" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.GetAssociateTest" executed="True" result="Success" success="True" time="1.155" asserts="2">
+                                <properties>
+                                  <property name="Order" value="2" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.AddAssociateTest" executed="True" result="Success" success="True" time="1.586" asserts="3">
+                                <properties>
+                                  <property name="Order" value="3" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.UpdateAssociateTest" executed="True" result="Success" success="True" time="0.177" asserts="3">
+                                <properties>
+                                  <property name="Order" value="4" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.DeleteAssociateTest" executed="True" result="Success" success="True" time="0.217" asserts="2">
+                                <properties>
+                                  <property name="Order" value="5" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AssociateControllerTests.GetDashBoardData" executed="True" result="Success" success="True" time="0.140" asserts="2">
+                                <properties>
+                                  <property name="Order" value="6" />
+                                </properties>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="AuthenticationControllerTests" executed="True" result="Success" success="True" time="0.386" asserts="14">
+                            <results>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.AuthenticateInvalidUserTest" executed="True" result="Success" success="True" time="0.102" asserts="1">
+                                <properties>
+                                  <property name="Order" value="1" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.AuthenticateValidUserTest" executed="True" result="Success" success="True" time="0.150" asserts="2">
+                                <properties>
+                                  <property name="Order" value="2" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.UserRegisterTest" executed="True" result="Success" success="True" time="0.034" asserts="2">
+                                <properties>
+                                  <property name="Order" value="3" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.UserAddest" executed="True" result="Success" success="True" time="0.027" asserts="3">
+                                <properties>
+                                  <property name="Order" value="4" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.UserUpdateTest" executed="True" result="Success" success="True" time="0.025" asserts="3">
+                                <properties>
+                                  <property name="Order" value="5" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.AuthenticationControllerTests.UserDeleteTest" executed="True" result="Success" success="True" time="0.023" asserts="3">
+                                <properties>
+                                  <property name="Order" value="6" />
+                                </properties>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="SkillControllerTests" executed="True" result="Success" success="True" time="0.332" asserts="13">
+                            <results>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.SkillControllerTests.GetAllSkillsTest" executed="True" result="Success" success="True" time="0.156" asserts="3">
+                                <properties>
+                                  <property name="Order" value="1" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.SkillControllerTests.GetSkillTest" executed="True" result="Success" success="True" time="0.017" asserts="2">
+                                <properties>
+                                  <property name="Order" value="2" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.SkillControllerTests.AddSkillTest" executed="True" result="Success" success="True" time="0.070" asserts="3">
+                                <properties>
+                                  <property name="Order" value="3" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.SkillControllerTests.UpdateSkillTest" executed="True" result="Success" success="True" time="0.034" asserts="3">
+                                <properties>
+                                  <property name="Order" value="4" />
+                                </properties>
+                              </test-case>
+                              <test-case name="SkillTracker.WebApi.Tests.Controllers.SkillControllerTests.DeleteSkillTest" executed="True" result="Success" success="True" time="0.024" asserts="2">
+                                <properties>
+                                  <property name="Order" value="5" />
+                                </properties>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
