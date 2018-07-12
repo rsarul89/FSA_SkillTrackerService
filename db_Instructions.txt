@@ -1,0 +1,5 @@
+Execute the sql files in this directory by following order in SQL Server Management Studio(Use version 2008 and above).
+
+1. SkillTracker_1.sql
+2. SkillTracker_DDL_2.sql
+3. SkillTracker_DML_3.sql
